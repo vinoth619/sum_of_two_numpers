@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>sumtwonumpers</title>
+</head>
+<body>
+    <h3> [no1]Sum of two numbers: Write a program that takes two numbers as input and prints their sum.</h3>
+    <input type="text" id="first">
+    <input type="text" id="second">
+    <button onclick="sum()">click</button>
+
+    <h1 id="val"></h1>
+    <script>
+        function sum(){
+            var first=document.getElementById('first').value
+            var second=document.getElementById('second').value
+            var val=document.getElementById('val')
+            val.innerHTML=Number(first)+Number(second)
+
+            
+        }
+
+    </script>
+    
+</body>
+</html>
